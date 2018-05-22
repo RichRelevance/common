@@ -52,8 +52,9 @@
         <exec-maven-plugin.version>1.5.0</exec-maven-plugin.version>
         <findbugs-maven-plugin.version>3.0.5</findbugs-maven-plugin.version>
         <findbugs-annotations.version>3.0.1</findbugs-annotations.version>
-        <jackson.version>2.9.4</jackson.version>
-        <jacoco-maven-plugin.version>0.7.9</jacoco-maven-plugin.version>
+        <java.version>8</java.version>
+        <jackson.version>2.9.5</jackson.version>
+        <jacoco-maven-plugin.version>0.8.1</jacoco-maven-plugin.version>
         <junit.version>4.12</junit.version>
         <kafka.version>1.1.0-cp1</kafka.version>
         <kafka.scala.version>2.11</kafka.scala.version>
@@ -488,8 +489,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <inherited>true</inherited>
                 <configuration>
-                    <source>7</source>
-                    <target>7</target>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -715,7 +716,7 @@
                         <artifactId>maven-compiler-plugin</artifactId>
                         <inherited>true</inherited>
                         <configuration>
-                            <release>7</release>
+                            <release>${java.version}</release>
                         </configuration>
                     </plugin>
                 </plugins>
