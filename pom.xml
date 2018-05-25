@@ -23,7 +23,7 @@
     <groupId>io.confluent</groupId>
     <artifactId>common-parent</artifactId>
     <packaging>pom</packaging>
-    <version>4.1.0</version>
+    <version>4.1.0-rr1</version>
     <name>common</name>
     <organization>
         <name>Confluent, Inc.</name>
