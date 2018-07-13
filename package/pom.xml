@@ -23,7 +23,7 @@
     <parent>
         <groupId>io.confluent</groupId>
         <artifactId>common-parent</artifactId>
-        <version>4.1.0-rr1</version>
+        <version>4.1.0-rr2-SNAPSHOT</version>
     </parent>
 
     <artifactId>common-package</artifactId>
@@ -35,7 +35,7 @@
         <dependency>
             <groupId>io.confluent</groupId>
             <artifactId>build-tools</artifactId>
-            <version>${confluent.version}</version>
+            <version>4.1.0-rr2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>io.confluent</groupId>
