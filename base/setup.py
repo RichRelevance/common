@@ -7,7 +7,7 @@ remote_requirements = '\n'.join(str(r.req) for r in parse_requirements("requirem
 
 setuptools.setup(
     name='common-tests',
-    version='4.1.0-rr2',
+    version='4.1.0-rr3-SNAPSHOT',
 
     author="Confluent, Inc.",
 
