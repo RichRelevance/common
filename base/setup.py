@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='common-tests',
-    version='4.1.0-rr3-SNAPSHOT',
+    version='4.1.2-rr1-SNAPSHOT',
 
     author="Confluent, Inc.",
 
