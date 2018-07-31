@@ -7,7 +7,7 @@
          -->
     <id>package</id>
     <formats>
-        <format>dir</format>
+        <format>zip</format>
     </formats>
     <includeBaseDirectory>false</includeBaseDirectory>
     <fileSets>
@@ -37,7 +37,7 @@
     <dependencySets>
         <dependencySet>
             <outputDirectory>share/java/${project.artifactId}</outputDirectory>
-            <useProjectArtifact>true</useProjectArtifact>
+            <useProjectArtifact>false</useProjectArtifact>
             <!-- Warning: Enabling useTransitiveFiltering is potentially unsafe,
                  cf. https://github.com/miguno/maven-assembly-transitive-deps-woes
                  and https://issues.apache.org/jira/browse/MASSEMBLY-504.  If
