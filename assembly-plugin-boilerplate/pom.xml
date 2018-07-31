@@ -12,16 +12,24 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
     <description>Maven Assembly Plugin boilerplate for Dockerized projects</description>
 
     <properties>
-        <maven-assembly.version>3.0.0</maven-assembly.version>
+        <maven-assembly-plugin.version>3.0.0</maven-assembly-plugin.version>
+        <maven-site-plugin.version>3.7.1</maven-site-plugin.version>
     </properties>
 
     <build>
+        <!-- assembly-plugin-boilerplate does not inherit from common
+        so we need to define plugin versions again -->
         <pluginManagement>
             <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-assembly-plugin</artifactId>
-                    <version>${maven-assembly.version}</version>
+                    <version>${maven-assembly-plugin.version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-site-plugin</artifactId>
+                    <version>${maven-site-plugin.version}</version>
                 </plugin>
             </plugins>
         </pluginManagement>
