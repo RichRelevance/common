@@ -65,7 +65,6 @@
         <maven-enforcer-plugin.version>3.0.0-M1</maven-enforcer-plugin.version>
         <maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
         <maven-surefire-plugin.version>2.21.0</maven-surefire-plugin.version>
-        <versions-maven-plugin.version>2.5</versions-maven-plugin.version>
         <maven-site-plugin.version>3.7.1</maven-site-plugin.version>
         <maven-project-info-reports-plugin.version>2.9</maven-project-info-reports-plugin.version>
         <mockito-all.version>1.10.19</mockito-all.version>
